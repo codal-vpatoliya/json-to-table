@@ -1,3 +1,50 @@
+Metadata-Version: 2.4
+Name: json-to-table
+Version: 1.0.0
+Summary: A Python library for converting JSON data into formatted tables
+Home-page: https://github.com/yourusername/json-to-table
+Author: Your Name
+Author-email: your.email@example.com
+Project-URL: Bug Reports, https://github.com/yourusername/json-to-table/issues
+Project-URL: Source, https://github.com/yourusername/json-to-table
+Project-URL: Documentation, https://github.com/yourusername/json-to-table#readme
+Keywords: json,table,formatting,ascii,console,terminal
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.0; extra == "dev"
+Requires-Dist: black>=21.0; extra == "dev"
+Requires-Dist: flake8>=3.8; extra == "dev"
+Requires-Dist: mypy>=0.800; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-python
+Dynamic: summary
+
 # JSON to Table Converter
 
 A Python library for converting JSON data into formatted tables with support for both simple and ASCII border styles.

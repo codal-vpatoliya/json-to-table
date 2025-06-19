@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include MANIFEST.in
+recursive-include json_to_table *.py
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude __pycache__ 
