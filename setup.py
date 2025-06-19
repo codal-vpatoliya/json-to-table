@@ -19,7 +19,7 @@ def get_version():
     return "1.0.0"
 
 setup(
-    name="json-to-table",
+    name="convert-json-to-table",
     version=get_version(),
     author="Your Name",
     author_email="your.email@example.com",
