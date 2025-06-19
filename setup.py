@@ -26,7 +26,7 @@ setup(
     description="A Python library for converting JSON data into formatted tables",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/json-to-table",
+    url="https://github.com/codal-vpatoliya/json-to-table",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
